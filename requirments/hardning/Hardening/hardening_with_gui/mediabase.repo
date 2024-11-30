@@ -1,0 +1,7 @@
+[InstallMediaBase]
+name=Red Hat Enterprise Linux 8.6.0
+mediaid=None
+baseurl=file:///root/cdrom/BaseOS
+metadata_expire=-1
+gpgcheck=0
+cost=500

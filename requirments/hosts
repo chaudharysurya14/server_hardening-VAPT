@@ -1,0 +1,16 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+#Gandiva
+172.16.106.5	ntp1.platform-svc.ng.in
+172.16.104.3	sysmon1.infra-mon.ng.in sysmon1
+172.16.104.6	syslog1.infra-mon.ng.in syslog1
+172.16.106.6	dns1.platform-svc.ng.in dns1
+172.16.106.2	Seqrite1 
+
+#Crawler
+#172.16.106.5    ntp1.platform-svc.ng.in
+#172.16.104.3    sysmon1.infra-mon.ng.in sysmon1
+#172.16.206.6    syslog2.infra-mon.ng.in syslog2
+#172.16.106.6    dns1.platform-svc.ng.in dns1
+#172.16.106.2    Seqrite1

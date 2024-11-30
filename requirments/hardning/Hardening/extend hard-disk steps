@@ -1,0 +1,44 @@
+fdisk /dev/sdb
+    6  clear
+    7  fdisk /dev/sdb
+    8  clear
+    9  lsblk
+   10  lsblk 
+   11  fdisk /dev/sdb 
+   12  fdisk -l
+   13  fdisk /dev/sdb 
+   14  clear
+   15  fdisk -L
+   16  lsblk 
+   17  fdisk /dev/sdb 
+   18  lsblk 
+   19  history 
+   20  df -Th
+   21  fdisk /dev/sdb 
+   22  lsblk
+   23  df -Th
+   24  clear
+   25  history 
+   26  lsblk 
+   27  fdisk /dev/sdb
+   28  clear
+   29  fdisk /dev/sdb
+   30  lsblk
+   31  clear
+   32  pvcreate /dev/sdb1
+   33  vgcreate datavg /dev/sdb1 
+   34  lvcreate -n datalv -L 3TiB datavg 
+   35  lvcreate -n datalv -L 2.9TiB datavg 
+   36  mkfs.xfs /dev/datavg/datalv 
+   37  mkdir /data
+   38  blkid
+   39  nano /etc/fstab 
+   40  mount -a
+   41  clear
+   42  blkid
+   43  nano /etc/fstab 
+   44  mount -a
+   45  df -h
+   46  clear
+   47  history 
+
