@@ -1,0 +1,16 @@
+[InstallMedia-AppStream]
+name=Red Hat Enterprise Linux 8.6.0
+mediaid=None
+metadata_expire=-1
+gpgcheck=0
+baseurl=file:///cdrom/AppStream
+enabled=1
+
+[InstallMedia-BaseOS]
+name=Red Hat Enterprise Linux 8.6.0
+mediaid=None
+metadata_expire=-1
+gpgcheck=0
+baseurl=file:///cdrom/BaseOS
+enabled=1
+
